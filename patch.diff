@@ -1,0 +1,12 @@
+diff --git a/Lib/Example.cs b/Lib/Example.cs
+index f876d11..02ae8a8 100644
+--- a/Lib/Example.cs
++++ b/Lib/Example.cs
+@@ -4,6 +4,6 @@ namespace Lib
+ {
+     public static class Example
+     {
+-		public static int Add(int a, int b) => a + b;
++		public static int Add(int a, int b) => a - b;
+     }
+ }
